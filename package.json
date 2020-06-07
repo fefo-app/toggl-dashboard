@@ -1,10 +1,10 @@
 {
-  "name": "@fefo/toggl-dashboard",
+  "name": "@fefo-app/toggl-dashboard",
   "version": "1.0.3",
   "description": "Toggl dashboard as React component",
   "author": "ulisesantana",
   "license": "MIT",
-  "repository": "ulisesantana/toggl-dashboard",
+  "repository": "fefo-app/toggl-dashboard",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
