@@ -8,8 +8,8 @@ export default styled.main`
   font-size: 100%;
   height: calc(100% - 72px);
   //margin: 0 auto;
-  min-height: calc(100vh - 72px);
-  min-width: calc(100vw - 96px);
+  min-height: calc(100% - 72px);
+  min-width: calc(100% - 72px);
   padding: 36px;
   width: calc(100% - 72px);
 `
