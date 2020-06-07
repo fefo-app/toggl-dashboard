@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'toggl-dashboard'
+import { ToggleDashboard } from 'toggl-dashboard'
 import 'toggl-dashboard/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ToggleDashboard />
 }
 
 export default App
