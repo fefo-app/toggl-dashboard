@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export default styled.main`
+export default styled.section`
   background-color: rgba(27, 27, 27, 1);
   color: ghostwhite;
   display: flex;
