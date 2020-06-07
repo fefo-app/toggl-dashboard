@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export default styled.form`
   select,
@@ -23,4 +23,4 @@ export default styled.form`
     color: white;
     border-radius: 0 20px 20px 0;
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export default styled.section`
   align-items: flex-start;
@@ -18,4 +18,4 @@ export default styled.section`
     justify-content: flex-start;
     flex-wrap: wrap;
   }
-`;
+`

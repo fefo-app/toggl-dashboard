@@ -1,1 +1,1 @@
-export * from "./SelectClient";
+export * from './SelectClient'

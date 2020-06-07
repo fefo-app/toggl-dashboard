@@ -1,2 +1,2 @@
-export * from "./TogglClient"
-export * from "./User"
+export * from './TogglClient'
+export * from './User'

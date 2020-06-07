@@ -1,18 +1,18 @@
-import React, { MouseEventHandler } from "react";
-import styled from "styled-components";
-import { Trash as TrashIcon } from "@styled-icons/zondicons/Trash";
+import React, { MouseEventHandler } from 'react'
+import styled from 'styled-components'
+import { Trash as TrashIcon } from '@styled-icons/zondicons/Trash'
 
 export const TrashButton = ({
   size = 36,
-  onClick,
+  onClick
 }: {
-  onClick: MouseEventHandler;
-  size: number;
+  onClick: MouseEventHandler
+  size: number
 }) => (
   <StyledWrapper onClick={onClick}>
     <TrashIcon size={size} />
   </StyledWrapper>
-);
+)
 
 const StyledWrapper = styled.button`
   background-color: transparent;
@@ -25,4 +25,4 @@ const StyledWrapper = styled.button`
   &:hover {
     color: orangered;
   }
-`;
+`

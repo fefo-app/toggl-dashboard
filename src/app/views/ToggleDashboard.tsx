@@ -2,7 +2,7 @@ import React from 'react'
 import StyleWrapper from './ToggleDashboard.style'
 import { Login, Logout } from './components'
 import { useToggl } from './hooks'
-import { WeeklyDashboard } from './containers/WeeklyDashboard'
+import { WeeklyDashboard } from './components/WeeklyDashboard'
 import { LastDayReport } from './components/LastDayReport'
 
 let counter = 0

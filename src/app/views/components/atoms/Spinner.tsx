@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import { Loader2 } from "@styled-icons/remix-line/Loader2";
+import React from 'react'
+import styled from 'styled-components'
+import { Loader2 } from '@styled-icons/remix-line/Loader2'
 
-export const Spinner = ({ size = 36 }) => <StyledSpinner size={size} />;
+export const Spinner = ({ size = 36 }) => <StyledSpinner size={size} />
 
 const StyledSpinner = styled(Loader2)<{ size: number }>`
   animation: spin 3s linear infinite;
@@ -15,4 +15,4 @@ const StyledSpinner = styled(Loader2)<{ size: number }>`
       transform: rotate(360deg);
     }
   }
-`;
+`

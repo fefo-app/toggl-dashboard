@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export default styled.section`
   margin: 8px;
@@ -20,7 +20,7 @@ export default styled.section`
     margin: 0 auto;
     width: 100%;
   }
-`;
+`
 
 export const StyledEntry = styled.li<{ color?: string }>`
   align-items: center;
@@ -50,7 +50,7 @@ export const StyledEntry = styled.li<{ color?: string }>`
       position: relative;
 
       &:after {
-        content: "|";
+        content: '|';
         position: absolute;
         right: 0;
         margin: 0 8px;
@@ -75,12 +75,12 @@ export const StyledEntry = styled.li<{ color?: string }>`
     }
 
     .project-dot:before {
-      background-color: ${({ color = "lightslategray" }) => color};
-      content: "";
+      background-color: ${({ color = 'lightslategray' }) => color};
+      content: '';
       position: absolute;
       height: 8px;
       width: 8px;
       border-radius: 20px;
     }
   }
-`;
+`

@@ -1,1 +1,1 @@
-export * from "./useToggl";
+export * from './useToggl'

@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { ViewWeeklyReport } from "../../../types";
+import styled from 'styled-components'
+import { ViewWeeklyReport } from '../../../types'
 
 const progressWidth = ({ percentageWorked }: ViewWeeklyReport) =>
-  !!percentageWorked ? (percentageWorked <= 100 ? percentageWorked : 100) : 0;
+  percentageWorked ? (percentageWorked <= 100 ? percentageWorked : 100) : 0
 
 export default styled.section<ViewWeeklyReport>`
   background-color: #4c4c4c;
@@ -12,11 +12,11 @@ export default styled.section<ViewWeeklyReport>`
   grid-template-rows: 40px 8px 40px 0.5fr 48px;
   gap: 0;
   grid-template-areas:
-    "worked"
-    "progress"
-    "form"
-    "projects"
-    "menu";
+    'worked'
+    'progress'
+    'form'
+    'projects'
+    'menu';
   margin: 8px;
   max-width: 200px;
   overflow: hidden;
@@ -108,8 +108,8 @@ export default styled.section<ViewWeeklyReport>`
         border-radius: 50%;
         position: absolute;
         display: ${({ leftHours }) =>
-          !!leftHours && leftHours.includes("-") ? "flex" : "none"};
-        content: "";
+          !!leftHours && leftHours.includes('-') ? 'flex' : 'none'};
+        content: '';
         right: -12px;
         height: 10px;
         width: 10px;
@@ -144,4 +144,4 @@ export default styled.section<ViewWeeklyReport>`
       padding: 4px;
     }
   }
-`;
+`

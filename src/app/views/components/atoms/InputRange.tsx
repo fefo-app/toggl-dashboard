@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const StyledInput = styled.input`
   -webkit-appearance: none;
@@ -26,8 +26,8 @@ const StyledInput = styled.input`
     background: #184e68;
     cursor: pointer;
   }
-`;
+`
 
 export function InputRange({ ...props }) {
-  return <StyledInput {...props} type="range" />;
+  return <StyledInput {...props} type='range' />
 }

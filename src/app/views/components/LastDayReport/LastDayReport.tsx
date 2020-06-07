@@ -16,14 +16,13 @@ export function LastDayReport({
   loading = false,
   onUpdate = () => {}
 }: LastDayReportProps) {
-
   useEffect(() => {
     onUpdate()
   }, [])
 
   return (
     <StyleWrapper>
-      <span className="title">
+      <span className='title'>
         {loading ? (
           <Spinner size={24} />
         ) : (

@@ -1,1 +1,1 @@
-export * from "./toggl";
+export * from './toggl'

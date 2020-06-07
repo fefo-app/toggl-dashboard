@@ -1,10 +1,10 @@
-import { SelectClient } from '../../components/SelectClient'
+import { SelectClient } from '../SelectClient'
 import React, { FormEvent, useEffect, useMemo } from 'react'
 
 import { transformToViewWeeklyReport } from '../../helpers'
 import { generateOnInputChange } from '../../handlers'
 import { TogglClient } from '../../../../services/toggle/entities'
-import { ClientWeeklyDashboard } from '../../components/ClientWeeklyDashboard'
+import { ClientWeeklyDashboard } from '../ClientWeeklyDashboard'
 import StyledWrapper from './WeeklyDashboard.styled'
 import { BarChart } from '@styled-icons/material'
 import { WeeklyReport } from '../../../types'

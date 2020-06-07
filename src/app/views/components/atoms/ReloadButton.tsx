@@ -1,18 +1,18 @@
-import React, { MouseEventHandler } from "react";
-import styled from "styled-components";
-import { Reload as ReloadIcon } from "@styled-icons/zondicons/Reload";
+import React, { MouseEventHandler } from 'react'
+import styled from 'styled-components'
+import { Reload as ReloadIcon } from '@styled-icons/zondicons/Reload'
 
 export const ReloadButton = ({
   size = 36,
-  onClick,
+  onClick
 }: {
-  onClick: MouseEventHandler;
-  size: number;
+  onClick: MouseEventHandler
+  size: number
 }) => (
   <StyledWrapper onClick={onClick}>
     <ReloadIcon size={size} />
   </StyledWrapper>
-);
+)
 
 const StyledWrapper = styled.button`
   background-color: transparent;
@@ -21,4 +21,4 @@ const StyledWrapper = styled.button`
   color: white;
   cursor: pointer;
   padding: 0;
-`;
+`

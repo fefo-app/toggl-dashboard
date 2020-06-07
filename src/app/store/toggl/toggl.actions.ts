@@ -13,12 +13,11 @@ import {
   TogglActions,
   TogglPayload
 } from './toggl.actionTypes'
-import { SummaryReportResponse } from '../../../services/toggle/dto/Report/SummaryReportResponse'
+import { SummaryReportResponse, WeeklyReportResponse } from '../../../services'
 import {
   transformTogglWeeklyReport,
   transformToViewLastDayReport
 } from '../../views/helpers'
-import { WeeklyReportResponse } from '../../../services/toggle/dto/Report/WeeklyReportResponse'
 
 const actionCreator = (type: TogglActions) => (payload?: TogglPayload) => ({
   type,
@@ -70,9 +69,7 @@ export const getLastDayReportDispatcher = (
     .getLastDayReport()
     .then((json: SummaryReportResponse) => {
       dispatch(
-        setLastDayReport(
-          transformToViewLastDayReport(json)
-        ) as TogglAction
+        setLastDayReport(transformToViewLastDayReport(json)) as TogglAction
       )
     })
     .catch((err) => {

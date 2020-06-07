@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Pill = styled.small`
   text-align: center;
@@ -10,4 +10,4 @@ export const Pill = styled.small`
   font-weight: bold;
   min-width: 48px;
   padding: 4px 8px;
-`;
+`

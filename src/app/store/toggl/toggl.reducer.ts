@@ -20,7 +20,7 @@ export interface TogglState {
     loading: boolean
   }
   lastDayReport: {
-    data: ViewLastDayReport,
+    data: ViewLastDayReport
     loading: boolean
   }
 }
