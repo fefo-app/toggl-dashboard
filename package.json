@@ -1,6 +1,6 @@
 {
   "name": "@fefo/toggl-dashboard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Toggl dashboard as React component",
   "author": "ulisesantana",
   "license": "MIT",
